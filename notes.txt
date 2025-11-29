@@ -1,0 +1,4 @@
+Component:
+It is reusable piece of code that used to define certain part of user interface.
+- Functional Component: easy to use and far better than class Component.
+- Class Component: its old now and we have to use advance JS for that.(complex)
