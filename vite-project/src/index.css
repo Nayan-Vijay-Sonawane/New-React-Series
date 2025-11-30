@@ -13,6 +13,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.newspace{
+  text-align:center;
+  align-items: center;
+  place-items: center;
+}
 
 a {
   font-weight: 500;
@@ -34,6 +39,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  display: flex;
   align-items: center;
   place-items: center;
   text-align: center;
