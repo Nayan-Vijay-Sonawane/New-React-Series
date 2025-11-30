@@ -4,9 +4,10 @@ import './index.css'
 // import App from './App.jsx'
 import Card from './component/Card.jsx';
 import CreateTodo from './component/CreateTodo.jsx'
+import NewEelement from './component/NewEelement.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <CreateTodo />
+    <NewEelement />
   </StrictMode>,
 )
