@@ -6,6 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  align-items: center;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,6 +34,9 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  align-items: center;
+  place-items: center;
+  text-align: center;
 }
 
 button {
