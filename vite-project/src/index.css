@@ -1,3 +1,8 @@
+*{
+  background-color: #f9f9f9;
+  color: black;
+  justify-content:center;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -40,6 +45,7 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   display: flex;
+  justify-content: center;
   align-items: center;
   place-items: center;
   text-align: center;
