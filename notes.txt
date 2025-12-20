@@ -21,3 +21,11 @@ React improves the UI performance using the concept called the Virtual DOM. Inst
 every change, React first updates an in-memory representation called the Virtual DOM. It then compares the new Virtual DOM
 with the previous one using the diffing algorithm. Based on the differences, React efficiently updates only the changed parts
 of the real DOM, this process is called reconciliation.
+
+CRA: 
+Create React App provides a pre-configured setup using WebPack.
+large bundle size, limited config flexibility, slow dev server
+
+Vite:
+Vite provides extreamly fast dev startup using native ES modules.
+Instant server start, smaller bundles
