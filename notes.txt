@@ -7,3 +7,10 @@ JSX:
 - Its modern code for writing HTML and JS together.
 - Browsers don't understand JSX so need to convert that into plain JS so Babel(compiler) comes in which converts that and renders also.
 - and now we don't need to import the react library (before 17 we had to)
+
+Virtual DOM: 
+- The Virtual DOM is an in-memory lightweight copy of the real DOM.
+- When we update the UI, React doesn't touch the real DOM directly.
+Instead, 1. Updates the virtual DOM first.
+         2. Compares it with the previous virtual DOM snapshot(Diffing).
+         3. Applies only the minimal required changes to the real DOM(reconciliation).
