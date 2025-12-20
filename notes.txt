@@ -29,3 +29,18 @@ large bundle size, limited config flexibility, slow dev server
 Vite:
 Vite provides extreamly fast dev startup using native ES modules.
 Instant server start, smaller bundles
+
+File Structure: 
+- index.html -> Entry point of the application, contains the root DOM.
+- main.jsx -> React app entry file, Mounts react to the DOM (connect react to the browser DOM).
+- App.jsx -> Root component(when the page loading this is the first excuting file ), hold layout and main UI logic.
+- components -> contains reusable UI components.
+- assets -> stores images, icons, fonts.
+- index.css -> Global styling 
+- vite.config.js -> vite configuration file.
+
+To setup a React Workspace, we can use Create React App ir Vite. CRA provides a quick zero-config setup using Webpack, 
+while Vite is a modern build tool offering faster and better performance using ES modules. In a typical React Project,
+index.html contains the root element, main.jsx mounts the React App, and app.jsx acts as the root component, with the 
+reusable components orgainzed inside the component folder.
+
