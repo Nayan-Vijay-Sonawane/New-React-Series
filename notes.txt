@@ -38,6 +38,7 @@ File Structure:
 - assets -> stores images, icons, fonts.
 - index.css -> Global styling 
 - vite.config.js -> vite configuration file.
+- package.json -> all dependencies, scripts, versions
 
 To setup a React Workspace, we can use Create React App ir Vite. CRA provides a quick zero-config setup using Webpack, 
 while Vite is a modern build tool offering faster and better performance using ES modules. In a typical React Project,
