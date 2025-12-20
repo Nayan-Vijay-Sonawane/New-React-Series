@@ -5,7 +5,8 @@ Component:
 
 JSX:
 - Its modern code for writing HTML and JS together.
-- Browsers don't understand JSX so need to convert that into plain JS so Babel(compiler) comes in which converts that and renders also.
+- Browsers don't understand JSX so need to convert that into plain JS so Babel(compiler) comes in which converts that and
+renders also.
 - and now we don't need to import the react library (before 17 we had to)
 
 Virtual DOM: 
