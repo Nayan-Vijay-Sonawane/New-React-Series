@@ -16,4 +16,7 @@ Instead, 1. Updates the virtual DOM first.
          3. Applies only the minimal required changes to the real DOM(reconciliation).
 
 Explaination : 
-React improves the UI performance using the concept called the Virtual DOM. Instead of updating the real DOM directly on every change, React first updates an in-memory representation called the Virtual DOM. It then compares the new Virtual DOM with the previous one using the diffing algorithm. Based on the differences, React efficiently updates only the changed parts of the real DOM, this process is called reconciliation.
+React improves the UI performance using the concept called the Virtual DOM. Instead of updating the real DOM directly on
+every change, React first updates an in-memory representation called the Virtual DOM. It then compares the new Virtual DOM
+with the previous one using the diffing algorithm. Based on the differences, React efficiently updates only the changed parts
+of the real DOM, this process is called reconciliation.
