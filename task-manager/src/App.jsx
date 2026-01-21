@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
 import './App.css'
@@ -18,23 +18,21 @@ function App() {
 
   // delete a task
   const deleteTask = (id) => {
-    setTask(tasks.filter((task) => {
-      task.id !== id
-    }));
+    setTasks(tasks.filter((task) => task.id !== id));
   };
 
   // update the task
   const updateTask = (id, newText) => {
     setTasks(
-      tasks.map((task) => (task.id === id ? {
-        ...task, text: newText} : task))
+      tasks.map((task) => (task.id === id ? 
+        {...task, text: newText} : task))
     );
     setEditingTask(null);
   };
 
   // filter tasks
   const filterTasks = tasks.filter((task) => 
-  task.text.toLowerCase().include(search.toLocaleLowerCase())
+  task.text.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
